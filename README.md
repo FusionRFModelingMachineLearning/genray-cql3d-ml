@@ -9,7 +9,7 @@ Three machine learning techniques (multilayer perceptron, random forest, and Gau
 
 ### Dependencies
 
-* Anaconda, GPflow, Jupyter notebook, ONNX, ONNX Runtime, PyTorch.
+* GPflow, Jupyter notebook, ONNX, ONNX Runtime, PyTorch, Scikit-learn.
 * Mac OSX, linux and Windows.
 
 ### Installing
@@ -22,6 +22,12 @@ Three machine learning techniques (multilayer perceptron, random forest, and Gau
 ```
 onnx_model = onnx.load("MLP_trained_power.onnx")
 onnx.checker.check_model(onnx_model)
+```
+
+```
+ort_sess = onnxruntime.InferenceSession("MLP_trained_power.onnx")
+ort_inputs = {ort_session.get_inputs()[0].name: x} 
+ort_outs = ort_session.run(None, ort_inputs)
 ```
 
 ## Authors
