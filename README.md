@@ -18,8 +18,8 @@ Three machine learning techniques (multilayer perceptron, random forest, and Gau
 ```
 pip install onnx
 pip install onnxruntime
-
 ```
+Note that onnx 1.10.2 and onnxruntime 1.10.0 have been tested to work on Python 3.7. Latest released version of the tools are backwards compatible.
 
 ### Executing program
 
@@ -30,14 +30,15 @@ onnx.checker.check_model(onnx_model)
 ```
 * run model using onnxruntime
 ```
-ort_sess = onnxruntime.InferenceSession("MLP_trained_power.onnx")
-ort_inputs = {ort_session.get_inputs()[0].name: x} 
-ort_outs = ort_session.run(None, ort_inputs)
+ort_session = onnxruntime.InferenceSession("MLP_trained_power.onnx")
+ort_inputs = {ort_session.get_inputs()[0].name: 'input'} 
+ort_outputs = ort_session.run(None, ort_inputs)
 ```
 
 ## Authors
 
-Contributors names and contact info
+Zhe Bai, zhebai@lbl.gov
+...
 
 ## Version History
 
