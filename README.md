@@ -9,12 +9,17 @@ Three machine learning techniques (multilayer perceptron, random forest, and Gau
 
 ### Dependencies
 
-* GPflow, Jupyter notebook, NumPy, ONNX, ONNX Runtime, PyTorch.
+* ONNX, ONNX Runtime, Tensorflow.
+* Environment: Python or Jupyter notebook.
 * Mac OSX, linux and Windows.
 
 ### Installing
 
-* install dependencies
+```
+pip install onnx
+pip install onnxruntime
+
+```
 
 ### Executing program
 
@@ -45,5 +50,5 @@ This project is licensed under the BSD License - see the LICENSE.md file for det
 
 ## Data availability
 
-* [data source](https://doi.org/10.7910/DVN/5YY6PE)
+* [data source at Plasma Science and Fusion Center Dataverse](https://doi.org/10.7910/DVN/5YY6PE)
 
