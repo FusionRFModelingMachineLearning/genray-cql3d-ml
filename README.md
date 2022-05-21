@@ -12,7 +12,7 @@ Three machine learning techniques (multilayer perceptron, random forest, and Gau
 ### Manifest
 
 This repository contains:
-* Models: trained ML models for Multi-Layer Perceptron (MLP),  Random Forest regression (RFR), and Gaussian Process regression (GPR). In some cases (GPR, MLP), the trained models are "small" and are located in this github repo. In other cases (RFR), the trained model is too large for the github repo, and is accessible in the subsection below "External Data Location/URL".
+* Models: trained ML models for Multi-Layer Perceptron (MLP),  Random Forest regression (RFR), and Gaussian Process regression (GPR). In some cases (GPR, MLP), the trained models are "small" and are located in this github repo. In other cases (RFR), the trained model is too large for the github repo, and is accessible in the subsection below [External Data URL](#external-data-url).
 * Code: Jupyter notebooks containing code that will load a trained ML model, ingest data from the simulation database, and perform an inference workload
 * Data: the simulation database is accessible at a URL shown below in the section of this document entitled "External Data Location/URL"
  
@@ -48,8 +48,8 @@ ort_outputs = ort_session.run(None, ort_inputs)
 
 ## Authors
 
-Zhe Bai, zhebai@lbl.gov
-E. Wes Bethel, ewesbethel@gmail.com
+* Zhe Bai, zhebai@lbl.gov
+* E. Wes Bethel, ewesbethel@gmail.com
 
 ## Version History
 
@@ -62,6 +62,5 @@ This project is licensed under the BSD License - see the LICENSE.md file for det
 
 ## External Data URL 
 
-The simulation database and trained RFR models are accessible elsewhere, 
-* [at this location at the Plasma Science and Fusion Center Dataverse](https://doi.org/10.7910/DVN/5YY6PE)
+The simulation database and trained RFR models are accessible [at this location at the Plasma Science and Fusion Center Dataverse](https://doi.org/10.7910/DVN/5YY6PE)
 
