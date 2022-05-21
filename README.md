@@ -12,9 +12,9 @@ Three machine learning techniques (multilayer perceptron, random forest, and Gau
 ### Manifest
 
 This repository contains:
-* Models: trained ML models for Multi-Layer Perceptron (MLP),  Random Forest regression (RFR), and Gaussian Process regression (GPR). In some cases (GPR, MLP), the trained models are "small" and are located in this github repo. In other cases (RFR), the trained model is too large for the github repo, and is accessible in the subsection below [External Data URL](#external-data-url).
+* Models: trained ML models for Multi-Layer Perceptron (MLP),  Random Forest regression (RFR), and Gaussian Process regression (GPR). In some cases (GPR, MLP), the trained models are "small" and are located in this github repo. In other cases (RFR), the trained model is too large for the github repo, and is accessible in the subsection below: [External Data URL](#external-data-url).
 * Code: Jupyter notebooks containing code that will load a trained ML model, ingest data from the simulation database, and perform an inference workload
-* Data: the simulation database is accessible at a URL shown below in the section of this document entitled "External Data Location/URL"
+* Data: the simulation database is accessible at a URL shown below in the section of this document entitled [External Data URL](#external-data-url).
  
 
 
