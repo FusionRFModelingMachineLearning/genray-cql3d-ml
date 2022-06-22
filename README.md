@@ -58,7 +58,7 @@ ort_outputs = ort_session.run(None, ort_inputs)
 
 ## License
 
-This project is licensed under the BSD License - see the LICENSE file(License.txt) for details.
+This project is licensed under the BSD License - see the [LICENSE file](License.txt) for details.
 
 ## External Data URL 
 
