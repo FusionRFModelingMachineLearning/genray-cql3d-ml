@@ -56,10 +56,6 @@ ort_outputs = ort_session.run(None, ort_inputs)
 * 1.0
     * Initial Release
 
-<<<<<<< HEAD
-## About
-=======
->>>>>>> b5dd1d06ee4a4d7399c6001d91d8ab89ce705aa0
 ## License
 
 This project is licensed under the BSD License - see the [LICENSE file](License.txt) for details.
