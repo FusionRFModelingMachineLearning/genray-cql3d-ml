@@ -49,7 +49,13 @@ ort_outputs = ort_session.run(None, ort_inputs)
 ## Authors
 
 * Zhe Bai, zhebai@lbl.gov
+* Talita Perciano, tperciano@lbl.gov
+* Robbie Sadre, rssadre@ucdavis.edu
 * E. Wes Bethel, ewesbethel@gmail.com
+* Greg Wallace, wallaceg@mit.edu
+* John Wright, jwright@psfc.mit.edu
+* Synichi Shiraiwa, shiraiwa@princeton.edu
+* Nicola Bertelli, nbertell@pppl.gov
 
 ## Version History
 
