@@ -62,5 +62,6 @@ This project is licensed under the BSD License - see the [LICENSE file](License.
 
 ## External Data URL 
 
-The simulation database and trained RFR models are accessible [at this location at the Plasma Science and Fusion Center Dataverse](https://doi.org/10.7910/DVN/5YY6PE)
+The simulation database and trained RFR models are accessible [at this location at the Plasma Science and Fusion Center 
+Dataverse](https://doi.org/10.7910/DVN/5YY6PE).
 
