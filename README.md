@@ -65,8 +65,6 @@ This project is licensed under the BSD License - see the [LICENSE file](License.
 The simulation database and trained RFR models are accessible [at this location at the Plasma Science and Fusion Center 
 Dataverse](https://doi.org/10.7910/DVN/5YY6PE).
 
-*** Copyright Notice ***
-
 Fusion RF Modeling Machine Learning (FusionML_RF) Copyright (c) 2022, 
 The Regents of the University of California, through Lawrence Berkeley 
 National Laboratory and Princeton Plasma Physics Laboratory (subject to 
